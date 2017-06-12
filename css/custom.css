@@ -1,0 +1,29 @@
+div.columns {
+    background-color: cornflowerblue;
+}
+
+.content {
+    border: 1px solid black;
+    color: #4a4a4a;
+}
+
+p.title.is-1.is-spaced {
+    text-align: center;
+}
+
+i.fa.fa-bar-chart.fa-5 {
+    color: azure;
+    font-size: 1em;
+}
+
+i.fa.fa-area-chart.fa-5 {
+    color: azure;
+    font-size: 1em;
+}
+.nav-item img {
+    max-height: 2.75rem;
+}
+.menu-list li ul {
+    margin: 0.75em;
+    padding-left: 0.75em;
+}
