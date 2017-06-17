@@ -19,7 +19,7 @@ app.get("/", function(req, res) {
     res.render("home")
 });
 app.get("/logdata", function(req, res) {
-    res.render("home", {
+    res.render("userRepositoryDet", {
         repo: JSON.stringify(specificUserFilePoolFileUtil.specificUserFilePool().getRepoName()),
         NumeberOfFiles: specificUserFilePoolFileUtil.specificUserFilePool().getNumberOfRepoContent().length
     });
