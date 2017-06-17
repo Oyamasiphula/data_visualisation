@@ -38,7 +38,7 @@ var specificUserFilePool = function() {
                 ghDefaultBranch: "master",
                 ghUsername: process.env.GHUSERNAME
             };
-
+            // if the graph isn't appearing properly I should make sure that I declare the gh enviroment variable
             if (repositoryProperty.download_url !== null) {
                 repoNameFix = repositoryProperty.download_url.replace(defaultGHSetting.ghDefaultDataLink + defaultGHSetting.ghUsername + "/", "");
                 repository.validRepositoryname = repoNameFix.replace("/" + defaultGHSetting.ghDefaultBranch + "/" + repositoryProperty.file, "");
