@@ -1,0 +1,12 @@
+.canvas-container {
+  height: 270px;
+  display: block;
+  margin: 0 auto;
+  background: rgba(39, 190, 232, 0.5);
+  background: -moz-radial-gradient(bottom, ellipse cover, rgba(39, 190, 232, 0.5) 0%, rgba(39, 0, 47, 0) 70%);
+  background: -webkit-gradient(radial, center bottom, 0%, center bottom, 70%, color-stop(0%, rgba(39, 190, 232, 0.5)), color-stop(70%, rgba(39, 0, 47, 0)));
+  background: -webkit-radial-gradient(bottom, ellipse cover, rgba(39, 190, 232, 0.5) 0%, rgba(39, 0, 47, 0) 70%);
+  background: -ms-radial-gradient(bottom, ellipse cover, rgba(39, 190, 232, 0.5) 0%, rgba(39, 0, 47, 0) 70%);
+  background: -o-radial-gradient(bottom, ellipse cover, rgba(39, 190, 232, 0.5) 0%, rgba(39, 0, 47, 0) 70%);
+  background: radial-gradient(ellipse at bottom, rgba(39, 190, 232, 0.5) 0%, rgba(39, 0, 47, 0) 70%);
+}
